@@ -1,0 +1,19 @@
+.contenedor-fotos{
+height: 200px;
+width: 40%;
+display: flex;
+}
+.perfil{
+height: 200px;
+width:200px;
+border-radius: 10%;
+box-shadow: 2px 2px 2px orange;
+margin-left: 20px;
+}
+.titulo-uno{
+font-family: 'Times New Roman', Times, serif;
+margin-left: 20px;
+width: 300px;
+color: orange;
+font-weight: bold;
+}
