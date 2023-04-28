@@ -1,19 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .contenedor-fotos{
-height: 200px;
-width: 40%;
-display: flex;
+    height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .perfil{
-height: 200px;
-width:200px;
-border-radius: 10%;
-box-shadow: 2px 2px 2px orange;
-margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px white;
+    margin: 20px;
 }
-.titulo-uno{
-font-family: 'Times New Roman', Times, serif;
-margin-left: 20px;
-width: 300px;
-color: orange;
-font-weight: bold;
+.organizador{
+   display: flex;
+
+} 
+/* list-style se usa para quitar los estilos */
+/* display flex los elementos ocupen el tamaño ideal */
+
+.editor-izquierdo{
+    width: 25%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    /* justify-content: space-around; */
+    height: 100vh;
+        }     
+        .titulo-contacto{
+            display: flex;
+            color: white;
+            justify-content: center;
+            border-bottom: 1px; 
+            width: 100%;
+        }
+ .contenedor-datos-contacto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: beige;
+    align-items: center;    
 }
+    .Titulo-habilidades{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        color: beige;
+    }
+    .contenedor-habilidades{
+        display: flex;
+        flex-direction: column;
+        color: beige;
+        align-items:center;
+        width: 100%;
+    }
+    .Contenedor-intereses{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        color: beige;
+    }
+    .intereses{
+        display: flex;
+        flex-direction: column;
+        color: beige;
+        align-items: center;
+        width: 100%;
+    }
+
+.editor-derecho{
+height: 100vh;
+width: 100vh;
+display: flex;
+list-style: none;
+    }
+        .titulo-uno{
+            margin-left: 40%;
+            margin-top: 2%;
+            color: orange;
+            font-weight: bold;
+            display: flex;
+            justify-content:center;
+            font-size:xx-large;
+        } 
+        .Carrera{
+            display: flex;
+            color: orange;
+            background-color: antiquewhite;
+        }
+        .informacion-carrera{
+            display: flex;
+            justify-content: center;
+        }
+
+        .titulo-dos{
+            display: flex;
+            color: orange;
+            background-color: antiquewhite;
+        }
+        .informacion-personal
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .titulo-tres{
+            display: flex;
+            color: orange;
+            background-color: antiquewhite;
+        }
+
+        .educacion-graduado{            
+            display: flex;   
+            flex-direction: column;
+            align-items: center ;    
+        }
+        .titulo-cuatro{
+            display: flex;
+            color: orange;
+            background-color: antiquewhite;
+        }
+        .profesional-graduado{
+            display: flex;   
+            flex-direction: column;
+            align-items: center ;
+        }
